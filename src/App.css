@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #EEE;
+    font: 1em sans-serif;
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.widget-weather {
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: start;
+    min-height: 96px;
+}
+
+.widget-weather__group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.widget-weather__temperature {
+    font-size: 2em;
+}
